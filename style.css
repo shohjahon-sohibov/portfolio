@@ -75,6 +75,10 @@ body {
     margin-top: 150px;
 }
 
+.span { 
+    color: coral;
+}
+
 .header__body__content {
     color: whitesmoke;
     text-align: left;
@@ -82,12 +86,11 @@ body {
 }
 
 .content__title {
-    text-transform: uppercase;
     color: coral;
 }
 
 .content__name {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .content__text {
@@ -95,6 +98,22 @@ body {
     font-size: 22px;
     line-height: 30px;
 
+}
+
+.content__img {
+    border-radius: 15px;
+    border: none;
+}
+
+.content__link {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin-left: 15px;
+    border: none;
+    padding: 12px 18px;
+    background-color: black;
+    border-radius: 15px;
 }
 
 .content__btn {
@@ -239,12 +258,6 @@ body {
 
 .projects {
     background-color: rgba(0, 0, 0, 0.800);
-    /* background-image: url(./img/blog_node_js.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
-    height: 100vh;
 }
 
 .projects__header {
@@ -271,15 +284,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 120px;
     margin-top: 50px;
     color: white;
 }
 
 .project-main__card {
-    width: 380px;
-    border: 2px solid coral;
+    width: 580px;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 .card__header {
